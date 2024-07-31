@@ -68,7 +68,7 @@ fi
 
 read -p "Enter your bot token: " token
 read -p "Enter your chat ID: " id
-sed -i "s/const token = 'your token here'/const token = '$token'/g" index.js
-sed -i "s/const id = 'chat id here'/const id = '$id'/g" index.js
+sed -i "s/const token = '7392016493:AAEaFOyG51FNs2clXPXqitoOu9PeRZasy4Y'/const token = '$token'/g" index.js
+sed -i "s/const id = '5863196947'/const id = '$id'/g" index.js
 echo "Server uploaded successfully! Now open new tab and follow rest instructions"
 node index.js
