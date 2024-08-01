@@ -66,7 +66,7 @@ else
     rm node_modules.zip
 fi
 
-read -p "Enter your bot token: " 7392016493:AAEaFOyG51FNs2clXPXqitoOu9PeRZasy4Y
+read -p "Enter your bot token: " 6436617907:AAGQc225G3Tds9Pkd71BxxQJumI_vB_WhSI
 read -p "Enter your chat ID: " 5863196947
 sed -i "s/const token = '7392016493:AAEaFOyG51FNs2clXPXqitoOu9PeRZasy4Y'/const token = '$token'/g" index.js
 sed -i "s/const id = '5863196947'/const id = '$id'/g" index.js
